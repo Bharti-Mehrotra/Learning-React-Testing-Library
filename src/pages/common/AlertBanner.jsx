@@ -1,7 +1,7 @@
 import { Alert } from "react-bootstrap";
 
 export default function AlertBanner({ message, variant }) {
-  const alertMessage = message || "An Unexpected error occured.";
+  const alertMessage = message || "An Unexpected error occured here.";
   const alertvariant = variant || "danger";
 
   return (
